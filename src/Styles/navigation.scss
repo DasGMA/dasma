@@ -1,0 +1,78 @@
+@import 'themeColors';
+
+.navigation {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 99999;
+    border-bottom: 0.1rem solid lightgray;
+
+    .menu {
+        background-color: inherit;
+        padding: 0 2rem;
+
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    .button-name {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        background-color: transparent;
+        height: 5rem;
+        padding: 0 2rem;
+
+        &:hover {
+            transition-duration: 0.2s;
+            background-color: transparentize($color: $themeTeal, $amount: 0.9);
+            color: $themeTeal;
+        }
+        &:focus {
+            outline: 0;
+        }
+        &:active {
+            color: $themeTeal;
+        }
+    }
+}
+
+.buttons {
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+
+    .button {
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        background-color: transparent;
+        height: 5rem;
+        padding: 0 2rem;
+
+        &:hover {
+            transition-duration: 0.2s;
+            background-color: transparentize($color: $themeTeal, $amount: 0.9);
+            color: $themeTeal;
+        }
+        &:focus {
+            outline: 0;
+        }
+    }
+}
+
+@keyframes fadeMe {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

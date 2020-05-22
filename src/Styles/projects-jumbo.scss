@@ -1,0 +1,12 @@
+@import 'themeColors';
+
+.projects-jumbo {
+    display: flex;
+    flex-direction: column;
+    
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        color: $themeTeal;
+    }
+}
