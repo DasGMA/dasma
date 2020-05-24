@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import '../Styles/jumbotron.scss';
 import HomeJumbo from './Jumbos/HomeJumbo';
 import ProjectsJumbo from './Jumbos/ProjectsJumbo';
+import ResumeJumbo from './Jumbos/ResumeJumbo';
 
 export default function Jumbotron() {
     const history = useHistory();
@@ -12,6 +13,7 @@ export default function Jumbotron() {
         <div className='jumbotron'>
             {location === '/' && <HomeJumbo />}
             {location === '/projects' && <ProjectsJumbo />}
+            {location === '/resume' && <ResumeJumbo /> }
         </div>
     )
 }

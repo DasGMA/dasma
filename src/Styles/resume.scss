@@ -1,0 +1,65 @@
+@import 'themeColors';
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .resume {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-items: center;
+        padding: 1rem;
+        max-width: 100rem;
+        width: 100%;
+
+        @media (max-width: 64rem) {
+            flex-direction: column
+        }
+
+        .resume-left {
+            flex: 4;
+            padding: 1rem;
+            flex-direction: column;
+
+            h2 {
+                font-size: 2.2rem;
+                letter-spacing: 0.1rem;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                font-weight: 700;
+            }
+
+            h3 {
+                font-size: 1.8rem;
+                letter-spacing: 0.1rem;
+                font-weight: 500;
+                color: $themeTeal
+            }
+        }
+
+        .resume-right {
+            flex: 1.5;
+            padding: 1rem;
+            flex-direction: column;
+            background-color: transparentize($color: $themeTeal, $amount: 0.9);
+
+            h2 {
+                font-size: 2.2rem;
+                letter-spacing: 0.1rem;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                font-weight: 700;
+            }
+
+            h3 {
+                font-size: 1.8rem;
+                letter-spacing: 0.1rem;
+                font-weight: 500;
+                color: $themeTeal;
+            }
+        }
+    }
+}

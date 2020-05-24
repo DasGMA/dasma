@@ -1,0 +1,60 @@
+@import 'themeColors';
+
+.project {
+    display: flex;
+    max-width: 80rem;
+    min-height: 20rem;
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 0.1rem dotted grey;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    @media (max-width: 64rem) {
+        flex-direction: column
+    }
+
+    .image-container {
+        display: flex;
+        max-width: 20rem;
+        width: 100%;
+        margin: 1rem;
+
+        a {
+            height: 20rem;
+            max-width: 100%;
+            img {
+                max-width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1rem;
+
+        a {
+            h1 {
+                font-size: 3rem;
+                letter-spacing: 0.1rem;
+                color: $themeTeal;
+
+                &:hover {
+                    color: $themeLightTeal;
+                    transition-duration: 0.2s;
+                }
+            }
+        }
+
+        p {
+            line-height: 3rem;
+            font-size: 1.6rem;
+            letter-spacing: 0.1rem;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import '../Styles/navigation.scss';
-import { useHistory } from "react-router-dom";
+import { useHistory } from 'react-router-dom';
 import burger from '../Media/menu.png';
 
 export default function Navigation() {
@@ -53,7 +53,6 @@ export default function Navigation() {
                 <button 
                     className='menu'
                     onClick={onPress}
-                    style={{outline: '0'}}
                 >
                     <img 
                         src={burger}

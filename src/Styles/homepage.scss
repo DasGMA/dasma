@@ -8,10 +8,9 @@
 
     .info {
         display: flex;
-        padding: 2rem;
+        padding: 1rem;
         max-width: 80rem;
         width: 100%;
-        //min-width: 30rem;
 
         @media (max-width: 64rem) {
             flex-direction: column
@@ -33,10 +32,11 @@
                 font-size: 1.6rem;
                 letter-spacing: 0.1rem;
 
-                a, span {
+                a, span, .button {
                     font-size: 2rem;
                     font-weight: 700;
                     color: $themeTeal;
+                    background-color: inherit;
 
                     &:hover {
                         color: $themeLightTeal;

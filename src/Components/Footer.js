@@ -13,13 +13,21 @@ export default function Footer() {
                     <p>&#169; DAS MA {date.getFullYear()}</p>
                 </div>
                 <div className='links'>
-                    <a href = 'https://www.linkedin.com/in/dasma/'>
+                    <a 
+                        href = 'https://www.linkedin.com/in/dasma/'
+                        target = '_blank'
+                        rel = 'noopener noreferrer'
+                    >
                         <img
                             src={linkedin}
                             alt='LinkedIn'
                         />
                     </a>
-                    <a href = 'https://github.com/DasGMA'>
+                    <a 
+                        href = 'https://github.com/DasGMA'
+                        target = '_blank'
+                        rel = 'noopener noreferrer'
+                    >
                         <img
                             src={git}
                             alt='GitHub'
