@@ -32,7 +32,8 @@ export const collection = [
         projectName: 'Aliens',
         projectLink: 'https://guardians-of-the-galaxy-crazy-ugly-space-game.netlify.app/',
         projectImage: space,
-        projectDescription: 'Space shooting game to test the posibilities of React JS and Canvas. Biggest challenge was to implement collision detection. React | ES6 Classes | Canvas | OOP'
+        projectDescription: `Space shooting game to test the posibilities of React JS and Canvas. 
+                            Biggest challenge was to implement collision detection. React | ES6 Classes | Canvas | OOP`
     },
     {
         projectName: 'Game Of Life',
