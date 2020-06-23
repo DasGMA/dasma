@@ -49,7 +49,7 @@ export default function Resume() {
                     <div className='resume-right'>
                         <h2>SKILLS</h2>
                         <h3>FRONT END</h3>
-                        <p>React, React Native, Redux, JavaScript, ES6, HTML5, CSS3, Flexbox, React Router, LESS, SCSS, Styled, Bootstrap, Materialize, Canvas</p>
+                        <p>React, React Native, Redux, JavaScript, ES6, HTML5, CSS3, Flexbox, React Router, LESS, SASS, Styled, Bootstrap, Materialize, Canvas</p>
                         <h3>BACK END</h3>
                         <p>Node.js, Express, Knex, SQLite, Django, Python, REST APIs, MongoDB</p>
                         <h3>TOOLS</h3>
