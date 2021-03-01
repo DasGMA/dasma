@@ -25,12 +25,13 @@ export default function HomePage() {
                 <div className='info'>
                     <div className='about-me'>
                         <h2>About me</h2>
-                        <p>Recent graduate from <a href='https://lambdaschool.com/about' target = '_blank' rel = 'noopener noreferrer'>Lambda School</a> – awesome Software Engineering Academy with world class Instructors!
-                        I have over 2 years of experience as a <span>Software Developer</span> with prior experience in <span>Project Management</span>. While I am proficient <span>Full – Stack Engineer</span>, my emphasis is in building <span>Front End Services</span>.
-                        While hard engineering problems are often fun to tackle, I am most attracted to solving real customer problems with a business justification. I am looking for a <span>Software Developer</span> role where I can collaborate with a team, gain experience with architecture, apply my knowledge, and grow with the company.
-                        In my free time, I love to get outside for mountain-biking, a good session at the gym, travel with my wife and keep building my swimming pool.
-                        For more info, check out my <button className='button' onClick={projects}>Projects</button> and <button className='button' onClick={resume}>Resume</button>.
-                        </p>
+                        <p>Recent graduate from <a href='https://lambdaschool.com/about' target = '_blank' rel = 'noopener noreferrer'>Lambda School</a> – awesome Software Engineering Academy with world class Instructors!</p>
+                        <p>I have over 2 years of experience as a <span>Software Developer</span> with prior experience in <span>Project Management</span>. 
+                        I am proficient <span>Full–Stack Engineer</span> with emphasis in utilizing <span>MERN Stack</span>.</p>
+                        <p>While hard engineering problems are often fun to tackle, I am most attracted to solving real customer problems with a business justification. 
+                            I am looking for a <span>Software Developer</span> role where I can collaborate with a team, gain experience with architecture, apply my knowledge, and grow with the company.</p>
+                        <p>In my free time, I love to get outside for mountain-biking, a good session at the gym, travel with my wife and tackling DIY Projects around the house.
+                        For more info, check out my <button className='button' onClick={projects}>Projects</button> and <button className='button' onClick={resume}>Resume</button>.</p>
                     </div>
                     <div className='contact-me'>
                         <h2>Contact</h2>

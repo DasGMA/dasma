@@ -13,12 +13,13 @@ export default function Resume() {
                         <h3>REALM (2019 - 2020) - California, Long Beach / Canada, Victoria</h3>
                         <p>REACT NATIVE DEVELOPER</p>
                         <ul>
-                            <li>Developed various features under minimal supervision using React Native.</li>
-                            <li>Created functional components using React Hooks.</li>
-                            <li>Designed and developed various components including: Camera/Camera Functions, Animated components, various data and media Posts Feed with automatically playing videos on scroll, Video Player, tab bars, image picker, date picker, push notifications, sign-in/out features, profile management and complex navigation.</li>
-                            <li>Extensive usage of Redux and Redux Action Creators.</li>
-                            <li>Manipulated and created data objects coming from JSON API back end to be suitable to use in the front end components.</li>
-                            <li>Utilized FFMPEG to resize videos, converted videos to GIFs.</li>
+                            <li>Developed a new version of a social app for gamers with React Native for Android and iOS platforms.</li>
+                            <li>Developed home feed component that incorporated all user subscriptions, other users activities and video/image posts. In order to reduce loading times significantly, I utilized FFMPEG to resize or convert videos to GIFs preview that played automatically on a certain screen position on scroll.</li>
+                            <li>Ensured that Media was successfully processed from the back end system and delivered to front end clients.</li>
+                            <li>Using React Native Animated API, created animated components: flipping/sliding character cards, auto - hide menus on scroll that met the design and enhanced UI.</li>
+                            <li>Developed Camera component that included options: flash, front/ back facing camera, take picture/video, 3s and 10s timer to delay taking picture/video, 20s timer for recording video with animated progress bar, picture/video preview with simple editing possibilities.</li>
+                            <li>Created objects from JSON API back-end data, to be suitable to use in front end components.</li>
+                            <li>Extensive REDUX usage.</li>
                             <li>Worked in Scrum – Agile environment, collaborated with cross – functional team.</li>
                         </ul>
                         <h3>IT - ITECH (2016 - 2017) - California, Long Beach</h3>
@@ -45,6 +46,11 @@ export default function Resume() {
                             <li>Conducted on-premise reviews and quality control with various Asian vendors.</li>
                             <li>Analized market data to make prompt decisions on procurement process.</li>
                         </ul>
+                        <h2>CERTIFICATIONS</h2>
+                        <ul>
+                            <li>Professional Agile and Scrum Certification, issued by EXIN</li>
+                            <li>PRINCE2, issued by APMG - International, ID 02891362-01-DGTL</li>
+                        </ul>
                     </div>
                     <div className='resume-right'>
                         <h2>SKILLS</h2>
@@ -60,7 +66,7 @@ export default function Resume() {
                         Full Stack Web Development</p>
                         <h3>LITHUANIA SPORT UNIVERSITY</h3>
                         <p>(2001 – 2005)
-                        BS in Sports Coaching</p>
+                        Bachelors in Sports Coaching</p>
                     </div>
                 </div>
             </div>
