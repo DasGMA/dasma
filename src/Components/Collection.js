@@ -12,15 +12,15 @@ export const collection = [
         projectImage: hiit,
         projectDescription: `STILL IN PROGRESS. Another project idea born during the pandemic. Gyms are closed! So decided to make my own Circuit Training App. 
                             Using EXPO environment to cater both Android and IOS. App will include Feed Screen, Countdown modal to show current and next exercises with timer, Exercises/Circuit Screen, History Screen with custom made Calendar,
-                            and Profile Screen. For the Back End planning to use MongoDB and Firebase.`
+                            and Profile Screen. For the Back End planning to use MongoDB.`
     },
     {
         projectName: 'Long Beach Business',
         projectLink: 'https://github.com/DasGMA/long-beach-business',
         projectImage: lbb,
         projectDescription: `STILL IN PROGRESS. As everyone was creating CONVI-19 tracking applications, 
-                            i came up with a better idea - help local businesses (Long Beach, CA) to recover quicker 
-                            by reaching community members with offers and deals. Utilizing React JS, SCSS for the Font End, and MongoDB and Firebase will be used for the Back End.`
+                            i came up with an idea - help local businesses (Long Beach, CA) to recover quicker 
+                            by reaching community members with offers and deals. Utilizing MERN Stack with Material-UI.`
     },
     {
         projectName: 'Portfolio',
