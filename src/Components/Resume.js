@@ -43,21 +43,6 @@ export default function Resume() {
                             <li>Met cost standards by monitoring expenses and implementing cost saving actions.</li>
                             <li>Conducted website management and maintenance (PHP), refactored home page code for faster rendering.</li>
                         </ul>
-                        <h3>PROFESSIONAL AND PERSONAL SABBATICAL (2015 – 2016) - United Kingdom</h3>
-                        <p>RELOCATION TO USA</p>
-                        <ul>
-                            <li>Took PMP courses, acquiring PMP Certification from PMI organization.</li>
-                            <li>Acquired JAVA OOP Language Certification.</li>
-                        </ul>
-                        <h3>CONNECT WORLD TRADE LTD (2011 – 2015) - United Kingdom, London</h3>
-                        <p>CEO / FOUNDER</p>
-                        <ul>
-                            <li>From standing start increased revenue to £242,000 per annum.</li>
-                            <li>Researched supply and demand market accross Asia and UK to determine the best IT hardware products for trading.</li>
-                            <li>Managed cost and chose quality merchandises.</li>
-                            <li>Conducted on-premise reviews and quality control with various Asian vendors.</li>
-                            <li>Analized market data to make prompt decisions on procurement process.</li>
-                        </ul>
                         <h2>CERTIFICATIONS</h2>
                         <ul>
                             <li>Professional Agile and Scrum Certification, issued by EXIN</li>
