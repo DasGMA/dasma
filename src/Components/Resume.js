@@ -10,6 +10,18 @@ export default function Resume() {
                 <div className='resume'>
                     <div className='resume-left'>
                         <h2>WORK EXPERIENCE</h2>
+                        <h3>WORKREACTOR INC. (2021 - current) - California, Long Beach</h3>
+                        <p>FULL STACK DEVELOPER</p>
+                        <ul>
+                            <li>Developed, tested and deployed social media application from scratch, using MERN stack.</li>
+                            <li>Planned, designed and implemented MongoDB database.</li>
+                            <li>Implemented and validated applications security and ability to interact with multiple APIs.</li>
+                            <li>Developed a fully functional web application using React functional components and hooks.</li>
+                            <li>Implemented notifications and messaging systems using Socket-io framework.</li>
+                            <li>Connected AWS services for storing media (S3 buckets), implemented mailing system (AWS SES), deployed front and back end to AWS</li>
+                            <li>Extensive REDUX usage.</li>
+                            <li>From the start, implemented Agile Methodologies Workflow, hosted daily stand-up meetings and tracked overall project progress.</li>
+                        </ul>
                         <h3>REALM (2019 - 2020) - California, Long Beach / Canada, Victoria</h3>
                         <p>REACT NATIVE DEVELOPER</p>
                         <ul>
@@ -55,9 +67,9 @@ export default function Resume() {
                     <div className='resume-right'>
                         <h2>SKILLS</h2>
                         <h3>FRONT END</h3>
-                        <p>React, React Native, Redux, JavaScript, ES6, HTML5, CSS3, Flexbox, React Router, LESS, SASS, Styled, Bootstrap, Materialize, Canvas</p>
+                        <p>React, React Native, Redux, JavaScript, ES6, HTML5, CSS3, Flexbox, React Router, LESS, SASS, Styled, Bootstrap, Materialize, Canvas, Socket.IO</p>
                         <h3>BACK END</h3>
-                        <p>Node.js, Express, Knex, SQLite, Django, Python, REST APIs, MongoDB</p>
+                        <p>Node.js, Express, Knex, SQLite, Django, Python, REST APIs, MongoDB, Socket.IO</p>
                         <h3>TOOLS</h3>
                         <p>Git, VS Code, Xcode, Android Studio, EXPO, C, Java, Postman, MS Project, Jira, Linux, Heroku, Netlify, Yarn, Npm, Docker, Google Cloud Platform</p>
                         <h2>EDUCATION</h2>

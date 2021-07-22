@@ -4,8 +4,16 @@ import lbb from '../Media/lbb.png';
 import hiit from '../Media/hiit.png';
 import times from '../Media/times.png';
 import gol from '../Media/gol.png';
+import wr from '../Media/workreactor.svg';
 
 export const collection = [
+    {
+        projectName: 'Work Reactor Social App',
+        projectLink: 'https://www.workreactor.com',
+        projectImage: wr,
+        projectDescription: `Work Reactor is a social network and workspace for startups that connects people and helps them to create, manage and join startups online.
+                            Application created using MERN stack with socket.io, AWS S3, AWS SES, AWS Amplify.`
+    },
     {
         projectName: 'HIIT Training App',
         projectLink: 'https://github.com/DasGMA/hiit-training',
