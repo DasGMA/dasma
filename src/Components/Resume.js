@@ -14,8 +14,10 @@ export default function Resume() {
                         <p>FULL STACK DEVELOPER</p>
                         <ul>
                             <li>Developed, tested and deployed social media application from scratch, using MERN stack.</li>
-                            <li>Planned, designed and implemented MongoDB database.</li>
-                            <li>Implemented and validated applications security and ability to interact with multiple APIs.</li>
+                            <li>Analysed end user requirements and translated business requirements into functional specifications for database design.</li>
+                            <li>Generated MongoDB and API prototypes proofs of concepts by leveraging technical knowledge of MongoDB platform.</li>
+                            <li>Formulated a reusable REST API framework to consume data from and push data into MongoDB.</li>
+                            <li>Implemented and validated applications security and ability to interact with multiple APIs: Express js., Jsonwebtokens, Express Session, Bcrypt.</li>
                             <li>Developed a fully functional web application using React functional components and hooks.</li>
                             <li>Implemented notifications and messaging systems using Socket-io framework.</li>
                             <li>Connected AWS services for storing media (S3 buckets), implemented mailing system (AWS SES), deployed front and back end to AWS</li>
@@ -56,7 +58,7 @@ export default function Resume() {
                         <h3>BACK END</h3>
                         <p>Node.js, Express, Knex, SQLite, Django, Python, REST APIs, MongoDB, Socket.IO</p>
                         <h3>TOOLS</h3>
-                        <p>Git, VS Code, Xcode, Android Studio, EXPO, C, Java, Postman, MS Project, Jira, Linux, Heroku, Netlify, Yarn, Npm, Docker, Google Cloud Platform</p>
+                        <p>Git, VS Code, Xcode, Android Studio, EXPO, C, Java, Postman, MS Project, Jira, Linux, Heroku, Netlify, Yarn, Npm, Docker, Google Cloud Platform, AWS</p>
                         <h2>EDUCATION</h2>
                         <h3>LAMBDA SCHOOL</h3>
                         <p>(2018 - 2019)
