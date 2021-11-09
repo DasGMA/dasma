@@ -25,26 +25,20 @@ export default function HomePage() {
                     <div className="about-me">
                         <h2>About me</h2>
                         <p>
-                            I have over 3 years of experience as a{' '}
-                            <span>Software Developer</span> with prior
-                            experience in <span>Project Management</span>. I am
-                            proficient <span>Full–Stack Engineer</span> with
+                            I am a <span>Full Stack Developer</span> with over 3
+                            years of hands-on experience designing, developing,
+                            and implementing applications and solutions using a
+                            range of technologies and programming languages.
+                            Proficient <span>Full–Stack Engineer</span> with
                             emphasis in utilizing <span>MERN Stack</span>.
                         </p>
                         <p>
-                            While hard engineering problems are often fun to
-                            tackle, I am most attracted to solving real customer
-                            problems with a business justification. I am looking
-                            for a <span>Software Developer</span> role where I
-                            can collaborate with a team, gain experience with
-                            architecture, apply my knowledge, and grow with the
-                            company.
+                            I seek to leverage broad developement experience and
+                            hands-on technical expertise in challenging role as
+                            a Full Stack Developer.
                         </p>
                         <p>
-                            In my free time, I love to get outside for
-                            mountain-biking, a good session at the gym, travel
-                            with my wife and tackling DIY Projects around the
-                            house. For more info, check out my{' '}
+                            For more info, check out my{' '}
                             <button className="button" onClick={projects}>
                                 Projects
                             </button>{' '}

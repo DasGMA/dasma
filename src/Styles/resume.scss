@@ -16,10 +16,10 @@
         width: 100%;
 
         @media (max-width: 64rem) {
-            flex-direction: column
+            flex-direction: column-reverse;
         }
 
-        .resume-left {
+        .resume-right {
             flex: 4;
             padding: 1rem;
             flex-direction: column;
@@ -36,12 +36,12 @@
                 font-size: 1.8rem;
                 letter-spacing: 0.1rem;
                 font-weight: 500;
-                color: $themeTeal
+                color: $themeTeal;
             }
         }
 
-        .resume-right {
-            flex: 1.5;
+        .resume-left {
+            flex: 2;
             padding: 1rem;
             flex-direction: column;
             background-color: transparentize($color: $themeTeal, $amount: 0.9);
