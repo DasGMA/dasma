@@ -10,7 +10,7 @@ export default function HomeJumbo() {
             </div>
             <h1>Das Ma</h1>
             <h2>
-                I love <span>CODING</span> and <span>TRAVELING</span>.
+                I love <span>CODING</span>.
             </h2>
         </div>
     );
