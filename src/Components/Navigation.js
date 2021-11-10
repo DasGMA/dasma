@@ -1,38 +1,41 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Styles/navigation.scss';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import burger from '../Media/menu.png';
 
 export default function Navigation() {
-    const history = useHistory();
+    const navigate = useNavigate();
+
     const [visible, setVisible] = useState(false);
 
     const animateMenu = {
-        transform: visible ? 'rotate(90deg)' : 'none', transitionDuration: '0.5s'
-    }
+        transform: visible ? 'rotate(90deg)' : 'none',
+        transitionDuration: '0.5s',
+    };
 
     const animatedButtons = {
-        display: visible ? 'flex' : 'none', animation: 'fadeMe 1s'
-    }
+        display: visible ? 'flex' : 'none',
+        animation: 'fadeMe 1s',
+    };
 
     const projects = () => {
-        history.push('/projects');
+        navigate('/projects');
         setVisible(false);
-    }
+    };
 
     const resume = () => {
-        history.push('/resume');
+        navigate('/resume');
         setVisible(false);
-    }
+    };
 
     const home = () => {
-        history.push('/');
+        navigate('/');
         setVisible(false);
-    }
+    };
 
     const onPress = () => {
         setVisible(!visible);
-    }
+    };
 
     useEffect(() => {
         let timeout;
@@ -44,27 +47,26 @@ export default function Navigation() {
             }, 3000);
         }
         return () => clearTimeout(timeout);
-    })
+    });
 
-    return(
+    return (
         <div>
-            <nav className = 'navigation'>
-                <button className = 'button-name' onClick = {home}>DAS MA</button>
-                <button 
-                    className='menu'
-                    onClick={onPress}
-                >
-                    <img 
-                        src={burger}
-                        alt='Menu'
-                        style={animateMenu}
-                    />
+            <nav className="navigation">
+                <button className="button-name" onClick={home}>
+                    DAS MA
+                </button>
+                <button className="menu" onClick={onPress}>
+                    <img src={burger} alt="Menu" style={animateMenu} />
                 </button>
             </nav>
-            <div className='buttons' style={animatedButtons}>
-                <button className = 'button' onClick = {projects} >PROJECTS</button>
-                <button className = 'button' onClick = {resume}>RESUME</button>
+            <div className="buttons" style={animatedButtons}>
+                <button className="button" onClick={projects}>
+                    PROJECTS
+                </button>
+                <button className="button" onClick={resume}>
+                    RESUME
+                </button>
             </div>
         </div>
-    )
+    );
 }

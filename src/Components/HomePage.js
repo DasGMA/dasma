@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../Styles/homepage.scss';
 import Jumbotron from './Jumbotron';
 import git from '../Media/git.png';
@@ -7,14 +7,14 @@ import linkedin from '../Media/linkedin.png';
 import email from '../Media/email.png';
 
 export default function HomePage() {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const projects = () => {
-        history.push('/projects');
+        navigate('/projects');
     };
 
     const resume = () => {
-        history.push('/resume');
+        navigate('/resume');
     };
 
     return (
